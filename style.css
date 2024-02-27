@@ -41,9 +41,10 @@ body {
 .answers .options {
     background: #e5e3e3;
     margin: 10px 0;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     border-radius: 10px;
     transition: 0.4s linear;
+    overflow: hidden;
 }
 
 .answers .options:hover {   
@@ -88,6 +89,18 @@ body {
    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+#displayedQuestion .col-sm-5 .options input {
+    float: left;
+    width: 9%;
+}
+
+#displayedQuestion .col-sm-5 .options label {
+    float: left;
+    width: 90%;
+    position: relative;
+    bottom: 6px;
 }
 
 /* .invalid-feedback{
